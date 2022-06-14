@@ -1,5 +1,6 @@
 * {
     margin: 0px;
+    border: 1px solid red;
   }
   
   body {
@@ -43,4 +44,184 @@
     border: unset;
     padding: 8px 0px;
     margin-top: 24px;
+  }
+
+  #banner-container2 {
+  
+    display: flex;
+    align-items: left;
+    padding: 32px 24px;
+    background-color: #d7d7d7;
+  }
+
+  #banner-container2 {
+    
+  }
+  #banner-container3 {
+    width: 60%;
+  }
+  #banner-container3 img {
+    width: 100%;
+  }
+
+  #banner-container3 h2 {
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 24px;
+    
+  }
+
+  #banner-container3 p {
+    width: 100%;
+  }
+  #banner-container4 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  #banner-container4 #orientation-date {
+    display: flex;
+    margin-left: 24px;
+  }
+
+  #banner-container4 #orientation-date img {
+    display: flex;
+    width: 35%;
+    margin: 16px;
+  }
+  #banner-container4 #orientation-date #orientation-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    Justify-Content: center;
+    
+  }
+
+  #banner-container4 #orientation-date h2 {
+    width: 100%;
+  }
+
+  #banner-container4 #our-campus {
+    display: flex;
+    margin-left: 24px;
+  }
+
+  #banner-container4 #our-campus img {
+    display: flex;
+    width: 35%;
+    margin: 16px;
+  }
+
+  #banner-container4 #our-campus #our-campus-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    Justify-Content: center;
+  }
+
+  #banner-container4 #our-campus #our-campus-text h2 {
+    width: 100%;
+  }
+
+  #banner-container4 #our-guest {
+    
+    display: flex;
+    margin-left: 24px;
+  }
+
+  #banner-container4 #our-guest img {
+    display: flex;
+    width: 35%;
+    margin: 16px;
+  }
+  #banner-container4 #our-guest #our-guest-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    Justify-Content: center;
+  }
+
+  #banner-container4 #our-guest #our-guest-text h2 {
+    width: 100%;
+  }
+
+  #banner-container5 {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px;
+    background-color: #d7d7d7;
+    
+  }
+
+  #banner-container5 h1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  #banner-container5 #three-row {
+    display: inline-flex;
+    align-items: stretch;
+    width: 100%;
+    
+  }
+
+  #banner-container5 #three-row-2 {
+    display: inline-flex;
+    align-items: stretch;
+    width: 100%;
+
+    
+  }
+
+  #banner-container6 {
+    display: flex;
+    align-items: left;
+    padding: 32px 24px;
+    background-color: #d7d7d7;
+  }
+
+  #banner-container6 #video {
+    width: 60%;
+  }
+
+  #banner-container6 #banner-container7 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #banner-container7 #banner-container8 img {
+    display: flex;
+    width: 35%;
+    margin: 16px;
+  }
+  #banner-container7 #banner-container8 #Fisma {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    Justify-Content: center;
+    
+  }
+
+  #banner-container7 #banner-container8 p {
+    width: 100%;
+  }
+  #banner-container7 #banner-container9 img {
+    display: flex;
+    width: 35%;
+    margin: 16px;
+  }
+  #banner-container7 #banner-container9 #now {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    Justify-Content: center;
+    
+  }
+
+  #banner-container7 #banner-container9 p {
+    width: 100%;
   }
