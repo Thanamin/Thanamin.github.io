@@ -158,23 +158,30 @@
   #start h1 {
     text-align: center;
     background-color: #d7d7d7;
+    padding-bottom: 32px;
   }
 
   #three-row {
-    display: inline-flex;
+    display: flex;
     align-items: stretch;
     width: 100%;
     
+  }
+  #three-row img {
+    width: 100%;
   }
 
   #three-row-2 {
-    display: inline-flex;
+    display: flex;
     align-items: stretch;
     width: 100%;
-
     
   }
 
+  #three-row-2 img {
+    width: 100%;
+    }
+    
   #banner-container6 {
     display: flex;
     align-items: left;
