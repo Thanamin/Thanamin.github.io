@@ -294,6 +294,7 @@
     }
     .foot .foot-right {
       display: inline-flex;
+      column-gap: 16px;
       
     }
   }
