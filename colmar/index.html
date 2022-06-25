@@ -9,122 +9,188 @@
 </head>
 
 <body>
-    <div id="banner-container">
-        <img src="assets/images/banner.jpg"></img>
-        <div id="banner-text">
-            <h1>Learn something new everyday</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <!--Nav bar mobile-->
+    <div class="navbar-mobile">
+        <nav class="logo-mobile">
+            <img src="assets/images/ic-logo.svg" />
+            <img src="assets/images/ic-on-campus.svg" />
+            <img src="assets/images/ic-online.svg" />
+            <img src="assets/images/ic-login.svg" />
+        </nav>
+    </div>
+
+
+    <!--Nav bar desktop-->
+    <nav class="navbar-desktop">
+        <div class="navbar-logo">
+            <img src="assets/images/ic-logo.svg" />
+            <div class="logo-text">
+                <span class="text-bold">COLMAR</span>
+                <p>ACADEMY</p>
+            </div>
+        </div>
+        <div class="navbar-name">
+            <div>
+                <p>On campus</p>
+            </div>
+            <div>
+                <p>Online</p>
+            </div>
+            <div>
+                <p>Our companies</p>
+            </div>
+            <div>
+                <p>Sign in</p>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--banner-container-1-->
+    <div class="container-1">
+        <img src="assets/images/banner.jpg" />
+        <div class="banner-text">
+            <h1>Learn something new everyday</h1><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br>
             <button>Start here</button>
         </div>
     </div>
-    <div id="banner-container2">
-        <div id="banner-container3">
-            <img src="assets/images/information-main.jpg"></img>
+
+
+    <!--Banner-container-2-->
+    <div class="container-2">
+        <div class="left">
+            <img src="assets/images/information-main.jpg" />
             <h2>It doesn't hurt to keep practicing</h2>
             <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed
                 non accumsan urna. Phasellus sed consequat ex.
-                Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+                Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p><br><br>
+            <p class="foot">Emanuel, Sr Strategist Hiring.com</p>
         </div>
-        <div id="banner-container4">
-            <div id="orientation-date">
-                <img src="assets/images/information-orientation.jpg"></img>
-                <div id="orientation-text">
+        <!---->
+        <div class="right">
+            <div class="orientation-date">
+                <img id="img-desktop1" src="assets/images/information-orientation.jpg" />
+                <img class="img-mobile" src="assets/images/information-orientation-mobile.jpg" />
+                <!--img for mobile-->
+                <div class="text-container2-right">
                     <h3>Orientation date</h3>
                     <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-                    <p href="">Read more</p>
+                    <p href="#">Read more</p>
                 </div>
             </div>
-            <div id="our-campus">
-                <img src="assets/images/information-campus.jpg"></img>
-                <div id="our-campus-text">
+            <div class="our-campus">
+                <img id="img-desktop2" src="assets/images/information-campus.jpg" />
+                <img class="img-mobile" src="assets/images/information-campus-mobile.jpg" />
+                <!--img for mobile-->
+                <div class="text-container2-right">
                     <h3>Our Campus</h3>
                     <p>Find which campus is close by you</p>
-                    <p href="">Read more</p>
+                    <p href="#">Read more</p>
                 </div>
             </div>
-            <div id="our-guest">
-                <img src="assets/images/information-guest-lecture.jpg"></img>
-                <div id="our-guest-text">
+            <div class="our-guest">
+                <img id="img-desktop3" src="assets/images/information-guest-lecture.jpg" />
+                <img class="img-mobile" src="assets/images/information-guest-lecture-mobile.jpg" />
+                <!--img for mobile-->
+                <div class="text-container2-right">
                     <h3>Our guest lecture</h3>
                     <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-                    <p href="">Read more</p>
+                    <p href="#">Read more</p>
                 </div>
             </div>
         </div>
     </div>
-    <div id="start">
-        <h1>Start learning</h1>
+
+
+    <!--Banner-container-3-->
+    <div class="container-3">
+        <div class="start">Start learning</div>
+        <div class="learning-content">
+            <!--Top-->
+            <div class="learning-box">
+                <img src="assets/images/course-software.jpg" />
+                <h2>Software engineering</h2>
+                <p class="course">COURSE</p>
+                <p class="course-text">Web Development, Mobile Development, iOT, APIs</p>
+            </div>
+            <div class="learning-box">
+                <img src="assets/images/course-computer-art.jpg" />
+                <h2>Computer art</h2>
+                <p class="course">COURSE</p>
+                <p class="course-text">Imaging & Design, Web Design, Motion Graphics & Visual Effects,</p>
+            </div>
+            <div class="learning-box">
+                <img src="assets/images/course-design.jpg" />
+                <h2>Design</h2>
+                <p class="course">COURSE</p>
+                <p class="course-text">User Experience Design, User Research, Visual Design</p>
+            </div>
+            <!--Bottom-->
+            <div class="learning-box">
+                <img src="assets/images/course-data.jpg"></img>
+                <h2>Data</h2>
+                <p class="course">COURSE</p>
+                <p class="course-text">Data Science, Big Data, SQL, Data Visualization</p>
+            </div>
+            <div class="learning-box">
+                <img src="assets/images/course-business.jpg"></img>
+                <h2>Business</h2>
+                <p class="course">COURSE</p>
+                <p class="course-text">Product Development, Business Development, Startup</p>
+            </div>
+            <div class="learning-box">
+                <img src="assets/images/course-marketing.jpg"></img>
+                <h2>Marketing</h2>
+                <p class="course">COURSE</p>
+                <p class="course-text">Analytics, Content Marketing,Mobile Marketing</p>
+            </div>
+        </div>
     </div>
 
-    <div id="three-row">
-        <div id="software"><img src="assets/images/course-software.jpg"></img>
-            <h2>Software engineering</h2>
-            <p>COUSE</p>
-            <p>Web Development, Mobile</p>
-        </div>
-        <div id="computer"><img src="assets/images/course-computer-art.jpg"></img>
-            <h2>Computer art</h2>
-            <p>COUSE</p>
-            <p>Imagin & Design, Web Design, Motion Graphics & Visual Effects,</p>
-        </div>
-        <div id="design">
-            <img src="assets/images/course-design.jpg"></img>
-            <h2>Design</h2>
-            <p>COUSE</p>
-            <p>User Experience Design, User Research, Visual Design</p>
-        </div>
-    </div>
-    <div id="three-row-2">
-        <div id="data">
-            <img src="assets/images/course-data.jpg"></img>
-            <h2>Data</h2>
-            <p>COUSE</p>
-            <p>Data Science, Big Data, SQL, Data Visualization</p>
-        </div>
-        <div id="business">
-            <img src="assets/images/course-business.jpg"></img>
-            <h2>Business</h2>
-            <p>COUSE</p>
-            <p>Product Development, Business Development, Startup</p>
-        </div>
-        <div id="marketing">
-            <img src="assets/images/course-marketing.jpg"></img>
-            <h2>Marketing</h2>
-            <p>COUSE</p>
-            <p>Analytics, Content Marketing,Mobile Marketing</p>
-        </div>
-    </div>
 
-    <div id="thesis">
-        <h1>Thesis exhibit</h1>
-    </div>
-    <div id="banner-container6">
-        <div id="video">
-            <video src=""></video>
-            <h2>Reimagine urban</h2>
-            <p>"Curabitur vitaelibero in ipsum porttitor consequat</p>
-        </div>
-        <div id="banner-container7">
-            <div id="banner-container8">
-                <img src="assets/images/thesis-fisma.jpg"></img>
-                <div id="Fisma">
-                    <h2>Fisma: Design and Prototype</h2>
-                    <p>Designer showcase of new prototype product</p>
-                </div>
+    <!--Banner-container-4-->
+    <div class="container-4">
+        <div class="thesis">Thesis exhibit</div>
+
+        <div class="the-box">
+            <!--Left-->
+            <div class="left">
+                <video controls src="assets/videos/thesis.mp4"></video>
+                <h2>Reimagine urban</h2>
+                <p>"Curabitur vitaelibero in ipsum porttitor consequat</p>
             </div>
 
-            <div id="banner-container9">
-                <img src="assets/images/thesis-now-and-then.jpg"></img>
-                <div id="Now">
-                    <h2>Now and then</h2>
-                    <p>Research study about New York</p>
+            <!--Right-->
+            <div class="right">
+                <div class="text-container-4-right" id="text-container-4-right-top">
+                    <img src="assets/images/thesis-fisma.jpg" />
+                    <div class="text-top">
+                        <h2>Fisma: Design and Prototype</h2>
+                        <p>Designer showcase of new prototype product</p>
+                    </div>
+                </div>
+                <div class="text-container-4-right">
+                    <img src="assets/images/thesis-now-and-then.jpg" />
+                    <div class="text-buttom">
+                        <h2>Now and then</h2>
+                        <p>Research study about New York</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </body>
+
+<!--Footer-->
 <footer>
-    <p> 2016 Colmar Academy.All rights reserved</p>
+    <div class="foot">
+        <span> &copy; 2016 Colmar Academy.All rights reserved</span>
+        <div class="foot-right">
+            <p>Terms</p>
+            <p>Privacy</p>
+        </div>
+    </div>
 </footer>
 
 </html>
